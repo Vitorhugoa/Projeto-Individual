@@ -1,15 +1,15 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     background-color: #8E8E8E;
 }
 
-.ContainerGrande{
+.ContainerGrande {
     height: 100%;
     width: 100%;
-}   
+}
 
-.ContainerMedio{
+.ContainerMedio {
     display: flex;
     height: 100vh;
     width: 100%;
@@ -19,19 +19,19 @@ body{
     background-size: cover;
 }
 
-.ContainerPequeno{
+.ContainerPequeno {
     display: flex;
     height: 100%;
     width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 99; 
+    z-index: 99;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
 }
 
-.ContainerPequeno h1{
+.ContainerPequeno h1 {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-style: normal;
@@ -50,11 +50,11 @@ body{
     margin: 0px;
 }
 
-.ContainerMusica{
+.ContainerMusica {
     display: flex;
     height: 100%;
     width: 100%;
-    
+
 }
 
 .ContainerPequenoMusica {
@@ -70,7 +70,7 @@ body{
     background-color: rgba(0, 0, 0, 0.514);
 }
 
-.ConteudoMusica{
+.ConteudoMusica {
     display: flex;
     height: 100vh;
     width: 100%;
@@ -92,31 +92,61 @@ body{
 }
 
 /* Depoimentos */
-.ContainerDepoimentos{
+.ContainerDepoimentos {
     display: flex;
     height: 100%;
     width: 100%;
 }
 
-.ContainerMedioDepoimentos{
+.ContainerMedioDepoimentos {
     display: flex;
     height: 100%;
     width: 100%;
     align-items: center;
     justify-content: center;
+    background-image: url(../assets/VerticalMusica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.514);
 }
 
-.ContainerPequenoDepoimentos{
+.ContainerPequenoDepoimentos {
     display: flex;
     height: 100vh;
     width: 100%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
 }
 
 .ContainerPequenoDepoimentos p {
-    font-size: 25px;
+    font-size: 35px;
     width: 50%;
     text-align: justify;
+}
+
+.ContainerPequenoDepoimentos h1 {
+    font-size: 60px;
+}
+
+.Btn {
+    height: 70px;
+    width: 40%;
+    border-radius: 15px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+}
+
+.Btn:hover {
+    background-color: #333333;
+    color: white;
+    font-size: 25px;
+    transition: 2s;
+    font-family: "Dancing Script", cursive;
+    font-weight: 10;
+    scale: 1.0;
 }
