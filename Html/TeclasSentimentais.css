@@ -54,6 +54,10 @@ body {
     display: flex;
     height: 100%;
     width: 100%;
+    background-image: url(../assets/Sol.png);
+    background-position: center;
+    background-repeat: round;
+    background-size: cover;
 
 }
 
@@ -63,10 +67,6 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/Sol.png);
-    background-position: center;
-    background-repeat: round;
-    background-size: cover;
     background-color: rgba(0, 0, 0, 0.514);
 }
 
@@ -90,14 +90,16 @@ body {
     text-align: justify;
     color: white;
 }
+
 /* Importancia da musica no nosso dia a dia  */
-.ContainerImportancia{
+.ContainerImportancia {
     display: flex;
     height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
+
 .ContainerMedioImportancia {
     display: flex;
     height: 100vh;
@@ -111,6 +113,7 @@ body {
     background-position: center;
     background-color: rgba(0, 0, 0, 0.514);
 }
+
 .ContainerMenorImportancia {
     display: flex;
     height: 100%;
@@ -195,7 +198,7 @@ body {
     border: #8E8E8E 10px;
 }
 
-.ContainerBeneficios{
+.ContainerBeneficios {
     display: flex;
     height: 100%;
     width: 100%;
@@ -204,7 +207,8 @@ body {
     flex-direction: column;
     text-align: justify;
 }
-.ContainerMedioBeneficios{
+
+.ContainerMedioBeneficios {
     display: flex;
     height: 100vh;
     width: 100%;
@@ -217,7 +221,8 @@ body {
     background-position: center;
     background-color: rgba(0, 0, 0, 0.514);
 }
-.ContainerPequenoBeneficios{
+
+.ContainerPequenoBeneficios {
     display: flex;
     height: 100%;
     width: 100%;
@@ -234,6 +239,7 @@ body {
     color: white;
     margin: 0px;
 }
+
 .Btn1 {
     height: 70px;
     width: 20%;
@@ -242,19 +248,22 @@ body {
     cursor: pointer;
     font-size: 25px;
     font-family: "Dancing Script", cursive;
-  }
-  
-  .Btn1:hover {
-    background-color: #333333; /* Cor diferente para o hover */
+}
+
+.Btn1:hover {
+    background-color: #333333;
+    /* Cor diferente para o hover */
     color: white;
     font-size: 35px;
     transition: 2s;
     font-weight: 10;
-    border: 1px solid #8E8E8E; /* Corrija a sintaxe da borda */
-    transform: scale(1.1); /* Use a propriedade transform */
-  }
-  
-  .ContainerBeneficios h1 {
+    border: 1px solid #8E8E8E;
+    /* Corrija a sintaxe da borda */
+    transform: scale(1.1);
+    /* Use a propriedade transform */
+}
+
+.ContainerBeneficios h1 {
     font-size: 60px;
     color: white;
     margin-bottom: 0px;
@@ -269,12 +278,107 @@ body {
 
 .ContainerBeneficios a {
     text-emphasis: none;
-    color: black; 
+    color: black;
     cursor: pointer;
 }
+
 .ContainerBeneficios a:hover {
-    color: white; 
+    color: white;
     cursor: pointer;
     transition: 1s;
 }
-  
+
+.ContainerSobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/SobreMim.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -10vw;
+    background-color: rgba(0, 0, 0, 0.514);
+
+
+}
+
+.ContainerMedioSobre {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+.ContainerMedioSobre img {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 19px 11px 20px 0px #8E8E8E;
+    border: 7px solid #333333;
+    animation: teste 2s infinite ease-in;
+    
+
+}
+
+
+.CaixaImagem {
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ContainerPequenoSobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 50%;
+    flex-direction: column;
+}
+
+.ContainerPequenoSobre p {
+    font-size: 35px;
+    width: 100%;
+    text-align: justify;
+    color: white;
+    margin-left: 1%;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.ContainerPequenoSobre h1 {
+    font-size: 60px;
+    color: white;
+}
+.Comunicacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+@keyframes teste {
+    0%{
+        border-color: #333333;
+        
+    }
+    10%{
+        border-color: #7D7D7D;
+    }
+    20%{
+        border-color: #6C6C6C;
+    }
+    30%{
+        border-color: #5B5B5B;
+    }
+    40%{
+        border-color: #4A4A4A;
+    }
+}
